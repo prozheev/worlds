@@ -11,7 +11,7 @@ file.close()
 file1.close
 words = re.findall(r"[\w']+", data)
 preps = re.findall(r"[\w']+", preps_file)
-print('OK')
+print('OK1')
 words_clear = [a for a in words if a not in preps]
 orig = set(words_clear) # Словарь без повторений
 
